@@ -6,8 +6,8 @@ export default function Product(props) {
     <>
     {/* {/* <div className="wrapper"> */}
     <div className="item" > 
-      <img  src={product.image} alt={product.name} height="100px" width="100px"/>
-      <h3>{product.name}</h3>
+      <img  src={product.image} alt={product.category} height="100px" width="100px"/>
+      <h3>{product.category}</h3>
       <h3>${product.price}</h3>
      
         <button onClick={() => onAdd(product)}>Add To Cart</button>

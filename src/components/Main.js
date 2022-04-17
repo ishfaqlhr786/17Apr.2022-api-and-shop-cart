@@ -8,7 +8,7 @@ export default function Main(props) {
       
      
         {products.map((product) => (
-          <Product key={product.id} product={product} onAdd={onAdd}></Product>
+          <Product key={product.id} product={product} onAdd={onAdd} ></Product>
         ))}
      
     </main>
